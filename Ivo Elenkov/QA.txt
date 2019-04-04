@@ -1,0 +1,201 @@
+
+Test management tool!!!
+
+ISTQB
+
+Test case structure
+
+1. Unique ID number
+2. Meaningful name
+3. Priority- важността от гледна точка на бизнеса.
+4. Desctipty- 
+5. Prerequsites- неща, които са се скуюили преди тази стъпка.
+6. Steps
+7. Expectrd result- всяка стъпка има expected result
+
+Test Data/ Input data- Данни, които използваме по време на изпълнение
+Steps- Послеdователност от неща, които извършваме.
+
+Rsult of test cases execution
+
+- Test case execution is finished once we have compared the actual and expected result
+- Possible statusses after execution
+      PASS
+      FAIL
+      BLOCKED
+      SKIPPED
+
+- fail test casses need a following investigation
+
+
+
+Categories by Expected sult criteria
+
+- positive-първо се изпълняват те.Те са с по- висок приоритет.
+- negative testing- хващат повече bug- ове.
+
+
+Functional testing 
+
+- functional testing
+- performance testing
+- security testing
+- based on the most common
+- integration testing
+- integration test cases
+- acceptance testing- последно ниво на тестване
+- usability testing
+
+Good test case practices
+
+- planning is a crearive process
+- ensure requirements covarage
+- each test case has a specific purpose
+- priority
+- review- много важно нещо
+- independency of the test cases- независимост между тест кейсовете. Всеки тест кейс има уникално ID.
+- clear and precise description of the test case steps
+- clear idea and/ or expected result
+= write test cases with the idea that everybody should use and understand them
+- the test cases should be short and simple sentences should be used
+- there shold be some naming convention agreed.
+- Think of execution folow when writing test cases/ steps
+
+Bad test case practices
+
+1. Dependency between test cases
+2. Poor description of the test cases steps
+3. Poor description pn the idea
+4. Expected result трябва да е кратък и ясен.
+
+Test suites- папки с тест кейсес. СЪВКУПНОСТ ОТ ТЕСТ КЕЙСИ, ОБЕИДЕНИ ОТ ДАДЕНА ЛОГИКА.
+
+1. autor
+2. project manager and developer
+3. priority
+4. overview
+5. Еnviroment
+different criteria
+
+Including test cases in Test suite
+
+combining test cases based  
+
+Test management system 
+
+Система, а която се създават и ъпдейтват тест менидвмънти.
+
+Test Rail
+Test Link
+
+
+Link guide
+
+материали*
+
+Skillo
+
+
+
+
+Slack
+
+
+version control= мястото,в което се съхранява софтуера.
+
+Пази история на всяка промяна. Пази история на всяка промяна.
+Мовем да се върнем към стара версия.
+Вижда се всяка промяна.
+Open source systems. 
+
+
+
+Дърпа фаЙлове в текущо състояние. Добавяме нещо, в копието, което е при нас.
+
+
+Merging.
+
+Типове Version control systems
+
+- CVCS
+- DVCS
+
+git e мястото, в което се съхранява всичко.
+
+Git pull
+
+master branch
+
+Дърпаме такущо състояние на нашия комп.
+
+git ad
+git commit
+git push
+
+cmd/ enter
+
+git status
+
+
+GIT PULL
+работа (домашно)
+GIT ADD .
+GIT COMMIT-m"MESSAGE"
+GIT PULL
+GIT PUSH
+GIT STATUS (по всяко време)
+
+
+git init- създава папка, която е repository
+git clone- клонираме repository
+git add- добавя конкретен файл. git add . добавя всички файлове
+git status- 
+git commit-m- коментар. Винаги трябва да има съобщение
+git commit- аm- 
+git check out- gile.txt-възстановява предишната версия. Само на текущата версия
+git pull дърпа текущата версия. 
+git push- слагаме промените, които сме направили
+
+master branch
+
+git pull
+git add . 
+git commit -m ""
+git pull (just in case pull before push)
+git push
+
+git status (current status of the git repository)
+
+git init (create a folder that is repository)
+
+git checkout
+
+Test case
+
+Pre- conditions
+set of input values
+
+Test case - описани стъпки, които имат оюакван резултат.
+
+Да мове да отговорим дали сме тествали юаст от продукта.
+Кратки изречения, които описват как действа софтуера.
+
+Матруца между очаквания и тест кейс
+
+requirement- изискванията на клиента.
+
+Test ca няма sverity (влиянието на проблема върху цялостнтата работа на системата).
+
+Test case execution
+
+В тест кейса няма еxpected result.
+
+Test case types
+
+High level
+
+Low level- по- ясно дефиниране на стъпките.
+
+JIRA!!!
+
+
